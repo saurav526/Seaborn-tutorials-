@@ -28,4 +28,5 @@ sns.boxplot(
 plt.title("Box Plot of Total Bill by Day and Smoker Status")
 plt.legend(title="Legend", bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0.)
 plt.grid(True , linestyle='--', linewidth=0.5, color='gray', alpha=0.7)
+plt.savefig("boxplot_total_bill_by_day_and_smoker.png", dpi=300, bbox_inches='tight')
 plt.show()
