@@ -1,0 +1,27 @@
+data=tips → Dataset used for plotting
+
+x="day" → Categorical variable on x-axis
+
+y="total_bill" → Numerical variable on y-axis
+
+hue="sex" → Splits violins by category using color
+
+split=True → Displays both hue categories in one violin
+
+palette="Set2" → Color theme for violins
+
+scale="count" → Violin width depends on number of observations
+
+linewidth=0.5 → Thickness of violin outline
+
+inner="quartiles" → Shows quartile lines inside violin
+
+linecolor="black" → Color of violin border
+
+alpha=1.0 → Transparency of violins (1 = solid)
+
+order=[...] → Custom order of x-axis categories
+
+saturation=1.0 → Intensity of color fill
+
+scale_hue=True → Scales violin width separately for each hue
