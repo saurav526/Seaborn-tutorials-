@@ -1,0 +1,33 @@
+🔹 Basic & Most Used Parameters (EXAM MUST)
+
+Parameter	One-line Explanation
+data	Dataset used for plotting
+hue	Categorical variable for color grouping
+palette	Color theme for different hue values
+vars	List of specific columns to plot
+diag_kind	Plot type on diagonal ("hist" or "kde")
+kind	Plot type off-diagonal ("scatter" or "reg")
+markers	Marker styles for different hue categories
+
+🔹 Axis Control Parameters
+
+Parameter	One-line Explanation
+corner	Shows only lower triangle of plots
+plot_kws	Custom settings for scatter plots
+diag_kws	Custom settings for diagonal plots
+height	Height of each subplot
+aspect	Width-to-height ratio of subplots
+
+🔹 Data Selection & Layout
+
+
+Parameter	One-line Explanation
+x_vars	Variables plotted on x-axis
+y_vars	Variables plotted on y-axis
+dropna	Removes missing values if True
+
+🔹 Styling & Advanced
+
+Parameter	One-line Explanation
+hue_order	Order of hue categories
+diag_sharey	Share y-axis scale on diagonal plot

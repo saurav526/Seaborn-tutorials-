@@ -18,10 +18,6 @@ sns.violinplot(
     order=["Thur", "Fri", "Sat", "Sun"],
     saturation=1.0,
     scale_hue=True,
-
-
-
-
 )
 plt.title("Violin Plot of Total Bill by Day and Sex")
 plt.legend(title="Legend", bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0.)
