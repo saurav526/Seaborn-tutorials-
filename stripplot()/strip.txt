@@ -1,0 +1,29 @@
+🔍 Parameter-wise Explanation
+
+data=tips → Dataset used for plotting
+
+x="day" → Categorical variable on x-axis
+
+y="total_bill" → Numerical variable on y-axis
+
+hue="sex" → Splits points by category using color
+
+hue_order=["Male","Female"] → Order of hue categories
+
+palette="plasma" → Color palette for points
+
+dodge=True → Separates hue categories side-by-side
+
+jitter=0.2 → Adds random horizontal spacing to avoid overlap
+
+size=10 → Size of each point
+
+marker="o" → Shape of plotted points
+
+alpha=1.0 → Transparency level of points
+
+edgecolor="r" → Border color of markers
+
+linewidth=0.5 → Thickness of marker border
+
+orient="v" → Vertical orientation of plo
