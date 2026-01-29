@@ -1,0 +1,17 @@
+data → dataset used for plotting
+
+x, y → variables for x and y axis
+
+hue → color grouping variable
+
+style → different marker styles
+
+size → size based on variable
+
+sizes → min & max marker size
+
+palette → color theme
+
+alpha → transparency level
+
+marker → shape of points
