@@ -1,3 +1,6 @@
+IN this repo  deal with the various function of seaborn with their most appropriate parameters. That makes data Visualization easy to understand.
+
+
 **Most Important Seaborn Graphs & Data Type**
 No.	Graph (Function)	Works On Data Type	One-Line Use
 
