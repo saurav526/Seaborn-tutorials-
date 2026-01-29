@@ -1,0 +1,7 @@
+markers → show points on line
+
+dashes → solid or dashed lines
+
+ci → confidence interval type
+
+linewidth → thickness of line
