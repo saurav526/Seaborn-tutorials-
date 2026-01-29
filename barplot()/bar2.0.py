@@ -11,13 +11,14 @@ sns.barplot(
     y="bill_length_mm",
     hue="sex",
     ci=100,
-    legend="full",
-    n_boot=1000,
     palette="autumn",
     estimator=sum,
     alpha=0.7,
     order=["Biscoe", "Dream", "Torgersen"],
-    orient="v",
+    saturation=0.7,
+    errwidth=0.4,
+    errcolor="gray",
+    capsize=0.1,
 )
 plt.title("bar Plot of Bill Depth vs Bill Length")
 plt.legend(title="Legend", bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0.)

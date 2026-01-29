@@ -5,21 +5,22 @@ import pandas as pd
 tips = sns.load_dataset("penguins")
 # print(tips)
 
-sns.barplot(
+sns.histplot(
     data=tips,
-    x="island",
-    y="bill_length_mm",
+    x="bill_depth_mm",
+    bins=30,
+    kde=True,
     hue="sex",
-    ci=100,
-    legend="full",
-    n_boot=1000,
-    palette="autumn",
-    estimator=sum,
+    multiple="stack",
+   
+    palette="Set2",
+    log_scale=True,
     alpha=0.7,
-    order=["Biscoe", "Dream", "Torgersen"],
-    orient="v",
+    element="poly",
+   
+    #  The value for `element` must be one of ['bars', 'step', 'poly'],
 )
-plt.title("bar Plot of Bill Depth vs Bill Length")
+plt.title("histogram Plot ")
 plt.legend(title="Legend", bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0.)
 plt.grid(True , linestyle='--', linewidth=0.5, color='gray', alpha=0.7)
 plt.show()

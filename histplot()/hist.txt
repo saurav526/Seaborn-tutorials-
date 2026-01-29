@@ -1,0 +1,21 @@
+data=tips → Dataset used for plotting
+
+x="bill_depth_mm" → Numerical column plotted on x-axis
+
+bins=30 → Number of histogram bars
+
+kde=True → Adds smooth density curve over histogram
+
+hue="sex" → Splits data by category using colors
+
+multiple="stack" → Stacks histograms of different categories
+
+palette="Set2" → Color theme for categories
+
+log_scale=True → Applies logarithmic scale to x-axis
+
+alpha=0.7 → Controls transparency of bars
+
+element="poly" → Draws histogram using polygon lines
+
+density=False → Shows count instead of density
