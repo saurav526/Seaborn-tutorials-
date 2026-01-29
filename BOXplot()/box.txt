@@ -1,0 +1,33 @@
+data=tips → Dataset used for the box plot
+
+x="day" → Categorical variable on x-axis
+
+y="total_bill" → Numerical variable on y-axis
+
+hue="smoker" → Splits boxes based on smoker category
+
+order=[...] → Custom order of x-axis categories
+
+saturation=1.0 → Controls color intensity of boxes
+
+width=0.6 → Width of each box
+
+hue_order=["No","Yes"] → Order of hue categories
+
+fliersize=5 → Size of outlier points
+
+linewidth=3 → Thickness of box borders
+
+orient="v" → Vertical box plot orientation
+
+gap=0.1 → Space between boxes of different hue
+
+palette="plasma" → Color palette used for boxes
+
+meanprops={...} → Style of mean marker
+
+showmeans=True → Displays mean value in box
+
+flierprops={...} → Style of outlier (flier) points
+
+showfliers=True → Displays outliers
