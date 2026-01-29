@@ -1,0 +1,33 @@
+var → 2D numerical data or matrix to visualize
+
+annot=True → Displays numerical values inside cells
+
+vmin=0 → Minimum data value mapped to colormap
+
+vmax=30 → Maximum data value mapped to colormap
+
+cmap="plasma" → Color theme of heatmap
+
+fmt=".1f" → Number format for annotations (1 decimal)
+
+annot_kws={...} → Styling of annotation text
+
+linewidth=3 → Thickness of grid lines between cells
+
+linecolor='red' → Color of grid lines
+
+cbar=True → Displays color bar legend
+
+cbar_kws={...} → Customizes color bar appearance
+
+square=True → Makes each cell square-shaped
+
+xticklabels=True → Shows x-axis labels
+
+yticklabels=True → Shows y-axis labels
+
+cbar_ax=None → Uses default axis for color bar
+
+robust=False → Uses full data range for color scaling
+
+mask=None → No values are hidden in the heatmap
