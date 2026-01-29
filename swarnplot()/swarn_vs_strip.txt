@@ -1,0 +1,6 @@
+Feature	         Stripplot	              Swarmplot
+Overlap	        ❌ Possible	               ✅ Never
+Jitter	         ✅ Yes	                     ❌ No
+Algorithm	       Random	                     Smart spacing
+Large data	     ✅ Works	                     ❌ Slow
+Accuracy	       Medium	                          High
